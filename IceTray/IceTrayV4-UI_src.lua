@@ -10,12 +10,12 @@ end
 local global = {
     version = "";
 }
-local Workspace         = game:GetService("Workspace")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local workspace         = game:GetService("Workspace")
+local repl = game:GetService("ReplicatedStorage")
 local players           = game:GetService("Players")
 local httpservice       = game:GetService("HttpService")
 local runservice        = game:GetService("RunService")
-local userinputservice  = game:GetService("UserInputService")
+local uis  = game:GetService("UserInputService")
 local lighting          = game:GetService("Lighting")
 local teleportservice   = game:GetService("TeleportService")
 local tweenservice      = game:GetService("TweenService")
